@@ -128,6 +128,13 @@ export default {
             this.search.push(this.listStudent[i]);
           }
         }
+        if(this.search.length==0){
+          for (let i = 0; i < this.listStudent.length; i++) {
+            if (this.listStudent[i].hoTen === this.inputHoTen.trim()) {
+              this.search.push(this.listStudent[i]);
+            }
+          }
+        }
       }
     },
   },
