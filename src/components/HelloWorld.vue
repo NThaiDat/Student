@@ -46,7 +46,6 @@ export default {
         if (Number.isInteger(x[i][0])) {
           this.listStudent.push(x[i])
           console.log(this.listStudent)
-
         }
       }
       this.postData()
