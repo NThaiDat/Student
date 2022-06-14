@@ -27,29 +27,6 @@ export default {
   props: {},
   data() {
     return {
-      // students: {
-      //   stt: '',
-      //   truong: '',
-      //   quanHuyen: '',
-      //   maHocSinh: '',
-      //   lop: '',
-      //   hoTen: '',
-      //   ngaySinh: '',
-      //   gioiTinh: '',
-      //   noiSinh: '',
-      //   danToc: '',
-      //   hoKhau: '',
-      //   dienThoai: '',
-      //   diemNam1: 0,
-      //   diemNam2: 0,
-      //   diemNam3: 0,
-      //   diemNam4: 0,
-      //   diemNam5: 0,
-      //   tongDiem5Nam: 0,
-      //   diemUuTien: 0,
-      //   tongDiem: 0,
-      //   ghiChu: '',
-      // },
       listStudent: [],
       label: "Click to upload",
     }
@@ -67,29 +44,6 @@ export default {
     tranferData(x) {
       for (let i = 0; i < x.length; i++) {
         if (Number.isInteger(x[i][0])) {
-          // console.log(x[i])
-          // this.students.stt = x[i][0];
-          // this.students.truong = x[i][1];
-          // this.students.quanHuyen = x[i][2];
-          // this.students.maHocSinh = x[i][3];
-          // this.students.lop = x[i][4];
-          // this.students.hoTen = x[i][5];
-          // this.students.ngaySinh = x[i][6] + "/" + x[i][7] + "/" + x[i][8];
-          // this.students.gioiTinh = x[i][9];
-          // this.students.noiSinh = x[i][10];
-          // this.students.danToc = x[i][11];
-          // this.students.hoKhau = x[i][12];
-          // this.students.dienThoai = x[i][13];
-          // this.students.diemNam1 += x[i][14];
-          // this.students.diemNam2 += x[i][15];
-          // this.students.diemNam3 += x[i][16];
-          // this.students.diemNam4 += x[i][17];
-          // this.students.diemNam5 += x[i][18];
-          // this.students.tongDiem5Nam += x[i][19];
-          // this.students.diemUuTien = x[i][20];
-          // this.students.tongDiem = x[i][21];
-          // this.students.ghiChu = x[i][22];
-          // console.log(this.students)
           this.listStudent.push(x[i])
           console.log(this.listStudent)
 
